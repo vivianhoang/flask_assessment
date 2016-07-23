@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+    <title>Skills-HTML-CSS</title>
+    <link rel="stylesheet" type="text/css" href="../static/styles.css">
+</head>
+<body>
+
+<!-- your html goes here -->
+    <h1>Job Application Form - Balloonicorn Inc.</h1>
+    <section>
+        <p><em>Please fill out your perosnal information, salary requirements, and select the job position you are applying for before submitting your application.</em></p>
+    </section><br>
+    <form action="/application" method="POST">
+        <label for="first name">First Name: <input id="firstname" type="text" name="firstname"></input></label><br>
+        <label for="last name"><strong>Last Name: </strong><input id="lastname" type="text" name="lastname"></input></label><br>
+        <label for="salary requirements">Salary Requirement: <input id="salaryrequirements" type="int" name="salary"></input></label><br></br>
+        <fieldset>
+        <legend>Choose a job position:</legend>
+        <label>
+            <input id="softwareengineer" type="radio" name="job" value="softwareengineer" required>Software Engineer
+            <input id="qaengineer" type="radio" name="job" value="QA Engineer">QA Engineer
+            <input id="productmanager" type="radio" name="job" value="Product Manager">Product Manager
+        </label>
+        </fieldset><br></br>
+        <label>
+            <input type="submit">
+        </label>
+    </form>
+</body>
+</html>

@@ -1,0 +1,18 @@
+/* Your CSS goes here */
+
+h1 {
+    text-align: center;
+}
+
+form input {
+    background-color: #f9ffaa;
+}
+
+lastname {
+    font-weight: bold;
+}
+
+section {
+    border: 2px solid black;
+    text-align: center;
+}
